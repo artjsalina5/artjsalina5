@@ -37,16 +37,12 @@ I'm a dedicated Computer Engineering student at the University of Connecticut, d
 - **Coursework Highlights:** Focused studies on the intricacies of `C programming`, `POSIX standards`, and the revolutionary `RISC-V architecture`.
 
 ## 🌟 Beyond the Code
-
-- **A Symphony of Skills:**
-  - **Musical Foundations:** My background in music not only fuels my creativity but also sharpens my problem-solving skills, proving that rhythm and coding can harmonize beautifully. My experience as a production manager for an entertainment company, prior to my time in the Navy, provided me with unique insights into creative project management and teamwork in high-stress, dynamic environments.
-  - **AI and Machine Learning Enthusiast:** Fascinated by the potential of artificial intelligence, particularly machine learning and large language models (LLMs), I am keen on exploring how these technologies can transform industries and solve complex challenges. My affinity for AI drives my curiosity and motivates me to integrate AI technologies into my projects wherever possible.
   - **Diverse Interests:** 
-    - **Machinery Work & Home Improvement:** Hands-on skills in machinery and a knack for DIY projects around the home reflect my practical and solution-focused approach.
+    - **Home Improvement:** Hands-on skills in machinery and a knack for DIY projects around the home reflect my practical and solution-focused approach.
     - **Finance & Investment:** Keen interest in finance helps me understand and navigate the economic aspects of technology projects and personal investments.
-    - **Fitness Enthusiast:** Regular physical activity not only keeps me energized but also sharpens my focus and resilience—qualities essential for enduring long coding sessions.
-    - **Arts & Culture Advocate:**
-
+    - **Fitness Enthusiast:** Regular physical activity not only keeps me energized but also sharpens my focus and resilience—qualities essential for all aspects of life.
+    - **Musical Foundations:** My background in music not only fuels my creativity but also sharpens my problem-solving skills in the moment.
+    
 ## 📫 Connect with Me
 
 - **Let’s Talk Tech (or anything else!):**
