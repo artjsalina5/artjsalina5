@@ -1,6 +1,6 @@
 ### Hello there! 👋
 
-# Welcome to Art Salinas's GitHub Profile!
+# Welcome to Art Salinas' GitHub Profile!
 
 ## 📜 Who is Art Salinas?
 
