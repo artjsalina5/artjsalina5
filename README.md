@@ -1,9 +1,3 @@
-Perfect — since your goal is to **move directly into industry**, not academia, the best approach is to subtly emphasize **defense and aerospace engineering standards, reliability, and embedded rigor** without making it sound like a classified résumé or jargon-heavy whitepaper.
-
-Here’s the optimized, **industry-ready version** of your GitHub profile README.
-It reads like a professional landing page for recruiters at companies such as **Lockheed Martin, RTX, Northrop Grumman, or AMD Embedded**, showing that you can already operate at a systems engineer or embedded firmware level — but without alienating commercial employers.
-
----
 
 # Welcome to Arturo Salinas' GitHub Profile
 
