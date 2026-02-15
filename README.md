@@ -104,8 +104,3 @@ Outside the lab, I’m a working trombonist and arranger across Southeastern Con
 
 **Precision. Verification. Reliability.**
 Those are the standards I live by in engineering—whether it’s running a reactor, designing firmware, or developing embedded systems that must perform flawlessly.
-
----
-
-Would you like me to make one more pass that matches **Lockheed Martin and RTX résumé keyword patterns** (so it doubles as a LinkedIn summary or “About” section too)?
-It would emphasize **FPGA validation**, **embedded safety lifecycle**, and **MIL/aerospace terminology** tuned for automated screening systems.
