@@ -1,106 +1,121 @@
-
-# Welcome to Arturo Salinas' GitHub Profile
-
-## Who Is Arturo Salinas
-
-I’m **Art Salinas**, a **Computer Engineering student at the University of Connecticut (Class of 2027)** and former **Navy Nuclear Reactor Operator** aboard fast-attack submarines. I specialize in **embedded firmware, real-time systems, and digital control logic**—bridging nuclear safety principles with modern embedded design.
-
-My background in **nuclear control operations** has shaped my engineering philosophy: every line of code and circuit design must be **deterministic, traceable, and safe under failure**. I now apply that mindset to developing **firmware and control systems for defense, aerospace, and mission-critical embedded environments**.
+# Arturo Salinas-Aguayo
+**FPGA & RTL Design Engineer | Embedded Systems | Digital Verification | Former Navy Nuclear Electronics Technician**
 
 ---
 
-## From Reactor Systems to Embedded Controls
+## About
 
-* **Navy Nuclear Reactor Supervisor:**
-  Qualified on the S9G reactor plant, I led and trained personnel in high-stakes operations and diagnostics. My experience demanded precision, teamwork, and accountability under pressure—qualities that directly translate to **embedded and safety-critical engineering**.
+I am a Computer Engineering student at UConn with prior experience as a Navy Nuclear Electronics Technician and Reactor Operator on USS South Dakota (SSN-790).
 
-* **Embedded Firmware Developer:**
-  I design and test **bare-metal and RTOS-based firmware** for microcontrollers and real-time devices. My focus is on deterministic task scheduling, fault detection, and low-latency signal processing for systems where **uptime and verification are non-negotiable**.
+My work is centered on FPGA design, RTL implementation, embedded systems, and verification. I am especially interested in systems that need to be predictable under real operating constraints, whether that means timing closure, testbench quality, hardware-software interfaces, or fault handling.
 
----
-
-## Technical Focus Areas
-
-* **Embedded Firmware and RTOS Development:**
-  Developing firmware in C for **AVR, ARM, and ESP32** microcontrollers using **FreeRTOS** and bare-metal designs. Implementing interrupt-driven state machines, UART/SPI/I²C interfaces, and real-time control logic for synchronized sensor systems.
-
-* **Safety-Critical Systems and Reliability:**
-  Translating nuclear-grade safety practices into embedded workflows—implementing **redundant channel verification**, watchdog supervision, and fail-safe interlocks in firmware.
-  Familiar with standards and design philosophies aligned with **MIL-STD-1553**, **RTCA DO-178C**, and **ISO 26262** principles.
-
-* **Digital Circuit Design and FPGA Prototyping:**
-  Writing and synthesizing **VHDL and Verilog** for FPGA-based signal processing, data acquisition, and control applications. Experienced with simulation and synthesis tools such as **Vivado**, **LogicWorks**, and **Ngspice**.
-
-* **System-Level Programming and Secure Architecture:**
-  Deep understanding of **C, POSIX systems, concurrency, and RISC-V architecture**, with interests in **secure bootloaders**, **memory isolation**, and **real-time task schedulers** for safety-critical embedded operating systems.
+My background in naval nuclear operations shaped how I approach engineering work. I value clear requirements, disciplined execution, traceability, and designs that can be understood and verified by other people.
 
 ---
 
-## Current Projects
+## Technical Areas
 
-* **HuskyStressMonitor (ESP32 RTOS Platform):**
-  A real-time physiological monitoring system designed for operational use in high-stress environments. Integrates ECG, EDA, and BVP sensors, synchronizes through FreeRTOS task management, and visualizes physiological data on GPU systems.
+### RTL Design and FPGA Development
+- Languages: VHDL, Verilog, SystemVerilog
+- Tools: Vivado, GHDL, LogicWorks, Xilinx IP Catalog
+- Experience with synthesis, place and route, timing analysis, and debug
+- Design areas include finite state machines, datapaths, pipelining, CDC considerations, and peripheral integration
+- Familiar with board-level interfaces including SPI, I²C, ADC/DAC integration, and memory-mapped control paths
 
-* **Embedded Control Testbed:**
-  A modular firmware framework for validating **redundant process control channels**, watchdog systems, and interlock timing under deterministic conditions. Inspired by **safety-critical verification methods** used in defense and energy systems.
+### Verification and Test
+- SystemVerilog testbench development
+- Assertion-based verification and coverage-oriented workflows
+- Directed and constrained-random testing
+- Comfortable building monitors, scoreboards, checkers, and regression-oriented test structure
+- Familiar with linting, simulation, and validation workflows used in digital design environments
 
-* **FPGA Signal Processing Module:**
-  A reconfigurable FPGA subsystem for **low-latency sensor fusion and control-loop stability analysis**, emphasizing reproducibility and real-time fault monitoring.
+### Embedded and Low-Level Software
+- Languages: C, C++, Python, MATLAB, Haskell
+- Platforms: AVR, ARM Cortex-M, ESP32, RISC-V
+- Experience with bare-metal programming, interrupt-driven systems, and real-time task structure
+- Protocols: UART, SPI, I²C, CAN, JTAG
+- Interested in firmware that interacts closely with hardware and supports deterministic system behavior
 
----
-
-## Technical Competencies
-
-* **Programming Languages:**
-
-  * C / C++ / Python / MATLAB / CUDA C
-  * VHDL / Verilog for synthesis and simulation
-
-* **Platforms and Toolchains:**
-
-  * FreeRTOS, ESP-IDF, AVR-GCC, Vivado, LogicWorks, LTspice, Ngspice
-  * Git, Neovim, VS Code, Make, CMake
-
-* **Hardware and Systems:**
-
-  * MCU development boards (AVR, ARM, ESP32), FPGA prototyping, digital control design
-  * Redundant systems, radiation-tolerant concepts, and secure bootloader design
-
-* **Engineering Practices:**
-
-  * Deterministic firmware design and verification
-  * Firmware validation aligned with MIL and DO-series reliability standards
-  * Low-level debugging, embedded telemetry, and protocol analysis
+### Systems and Integration
+- Translating design intent into workable RTL and interface logic
+- Working across hardware, firmware, simulation, and lab validation
+- Tradeoff analysis across timing, complexity, maintainability, and implementation cost
+- Strong preference for designs that are testable, reviewable, and easy to reason about
 
 ---
 
-## Career Direction
+## Experience
 
-* **Short-Term Goal:**
-  Enter the **embedded systems and defense industry** directly after graduation, focusing on firmware design, FPGA prototyping, and reliability engineering for mission-critical systems.
+### Leonardo DRS — Electrical Engineering Intern  
+**Jun 2025 – Aug 2025**
+- Worked on FPGA-DSP interface development for naval defense systems
+- Supported integration between Microchip IGLOO2 SoC FPGAs and Texas Instruments DSP processors
+- Built MATLAB control-loop simulations for electromechanical modeling
+- Implemented memory-mapped control interfaces tied to hardware error-detection logic
+- Assisted with integration, debug, and failure analysis in a mission-critical electronics environment
 
-* **Long-Term Vision:**
-  Engineer next-generation **embedded control architectures** for aerospace and defense—secure, fault-tolerant, and real-time. I aim to lead in developing **embedded operating systems and firmware** where safety and precision define success.
+### UConn Biological Human Factors Laboratory — Signal Processing and Research  
+**Aug 2024 – Dec 2025**
+- Developed MATLAB and Python workflows for ECG R-peak detection, HRV analysis, and biosignal synchronization
+- Processed and validated multimodal wearable sensor data including ECG, EDA, PPG, and respiration
+- Contributed to peer-reviewed research involving signal-processing methodology
+- Built repeatable data-processing pipelines for research and validation use
+
+### U.S. Navy, USS South Dakota (SSN-790) — Nuclear Electronics Technician / Reactor Operator  
+**Mar 2017 – Jul 2023**
+- Operated and maintained reactor instrumentation, control, and support systems across normal and casualty conditions
+- Performed maintenance and troubleshooting on mission-critical electronics and control systems
+- Worked from procedures, technical documentation, schematics, and test data to diagnose and repair faults
+- Led maintenance evolutions and supervised high-consequence work under strict procedural controls
+- Mentored junior technicians and operators in both maintenance and operations
+- Qualifications included Propulsion Plant Operator, Shutdown Reactor Operator, Submarine Reactor Controls, QA Craftsman, and Qualified Submarines
 
 ---
 
-## Beyond Engineering
+## Selected Work
 
-My time in the **nuclear Navy** taught me to learn faster than the problem evolves, maintain composure in complexity, and prioritize accuracy above all.
-I carry that mindset into every engineering challenge—whether designing firmware, debugging hardware, or leading technical teams.
+### Custom RISC-V CPU (VHDL)
+- Designed control-path and datapath components for a RISC-V processor
+- Focused on control logic, pipeline behavior, and verification structure
 
-Outside the lab, I’m a working trombonist and arranger across Southeastern Connecticut, balancing analytical focus with creativity and performance discipline.
+### Embedded C Projects
+- Built bare-metal and interrupt-driven microcontroller programs
+- Worked at the register level with timing-sensitive control logic
+
+### Concurrent Systems in C
+- Implemented producer-consumer patterns and bounded-buffer coordination with POSIX threads
+- Focused on synchronization correctness and predictable behavior under concurrency
+
+### Functional Programming Work
+- Used Haskell for recursive algorithms, higher-order functions, and type-safe program structure
+- Useful for thinking clearly about data flow and transformation logic
 
 ---
 
-## Connect with Me
+## Education
 
-* **LinkedIn:** [Arturo Salinas Aguayo](https://www.linkedin.com/in/arturo-salinas-aguayo/)
-* **GitHub Projects:** [artjsalina5](https://github.com/artjsalina5)
-* **Discord:** artjsalina5
-* **Transcript and Coursework:** [UConn Transcript Repository](https://github.com/artjsalina5/Transcript)
+**University of Connecticut**  
+B.S. in Computer Engineering  
+Expected Spring 2027  
+GPA: 3.986
+
+**Relevant Coursework**  
+Digital Logic Design, Digital Systems Design, Computer Architecture, Systems Programming, Operating Systems, Microprocessor Applications Lab, Signals and Systems, Electronic Circuit Design, Numerical Methods, Linear Algebra, Differential Equations
+
+**Advanced Technical Training**  
+**U.S. Navy Nuclear Power School** (2018)  
+Training in reactor physics, thermodynamics, electrical power systems, instrumentation and control, radiological controls, and propulsion plant operation
 
 ---
 
-**Precision. Verification. Reliability.**
-Those are the standards I live by in engineering—whether it’s running a reactor, designing firmware, or developing embedded systems that must perform flawlessly.
+## Contact
+
+- Email: arturojsalinas@outlook.com
+- Phone: +1-956-400-9965
+- Location: Groton, CT
+
+---
+
+## Working Style
+
+I do well in environments where the work is technical, the standards are high, and the output has to hold up under review. My strongest habits are careful execution, solid documentation, and staying close to how a system behaves in practice rather than how it looks on paper.
